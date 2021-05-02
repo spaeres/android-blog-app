@@ -7,7 +7,7 @@
         android:title="@string/action_account_settings" />
     <item
         android:id="@+id/action_addpost_btn"
-        android:title="Add new post" />
+        android:title="@string/add_post" />
     <item
         android:id="@+id/action_logout_btn"
         android:title="@string/action_logout_text" />

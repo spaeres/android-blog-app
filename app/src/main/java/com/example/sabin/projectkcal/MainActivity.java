@@ -76,11 +76,12 @@ public class MainActivity extends AppCompatActivity {
 
         if (mCurrentUser != null) {
 
+            //Modificar barra de arriba:
             mMainToolbar = (android.support.v7.widget.Toolbar) findViewById(R.id.main_toolbar);
             setSupportActionBar(mMainToolbar);
-            getSupportActionBar().setTitle("shakesy.");
+            getSupportActionBar().setTitle("aFRIEND.");
             getSupportActionBar().getThemedContext();
-            mMainToolbar.setTitleTextColor(getResources().getColor(R.color.colorPrimaryDark));
+            mMainToolbar.setTitleTextColor(getResources().getColor(R.color.title_text_color));
 
             bottomNav = findViewById(R.id.bottom_nav);
             BottomNavigationViewHelper.removeShiftMode(bottomNav);
